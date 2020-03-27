@@ -4,6 +4,8 @@ def fibonacci_multiplication(x, y):
     n_list = list(sorted([int(char) for char in str(y)], reverse=True))
 
     hold = 0
+    count = 0
+    
     for item in range(0, len(m_list) + len(n_list)):
         for i in range(0, len(m_list)):
             for j in range(0, len(n_list)):
